@@ -1338,7 +1338,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libaudioroute-notice",
+    notice: "../common/NOTICE_FILES/libaudioroute.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libaudioroute.so"],
@@ -1403,7 +1403,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libcap-notice",
+    notice: "../common/NOTICE_FILES/libcap.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libcap.so"],
@@ -1420,7 +1420,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libcrypto-notice",
+    notice: "../common/NOTICE_FILES/libcrypto.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libcrypto.so"],
@@ -1453,7 +1453,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libcurl-notice",
+    notice: "../common/NOTICE_FILES/libcurl.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libcurl.so"],
@@ -1502,7 +1502,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libevent-notice",
+    notice: "../common/NOTICE_FILES/libevent.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libevent.so"],
@@ -1519,7 +1519,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libexif-notice",
+    notice: "../common/NOTICE_FILES/libexif.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libexif.so"],
@@ -1536,7 +1536,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libexpat-notice",
+    notice: "../common/NOTICE_FILES/libexpat.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libexpat.so"],
@@ -1601,7 +1601,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libhardware_legacy-notice",
+    notice: "../common/NOTICE_FILES/libhardware_legacy.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libhardware_legacy.so"],
@@ -1634,7 +1634,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libkeymaster_messages-notice",
+    notice: "../common/NOTICE_FILES/libkeymaster_messages.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libkeymaster_messages.so"],
@@ -1651,7 +1651,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libkeymaster_portable-notice",
+    notice: "../common/NOTICE_FILES/libkeymaster_portable.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libkeymaster_portable.so"],
@@ -1668,7 +1668,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libkeymaster_staging-notice",
+    notice: "../common/NOTICE_FILES/libkeymaster_staging.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libkeymaster_staging.so"],
@@ -1685,7 +1685,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libldacBT_abr-notice",
+    notice: "../common/NOTICE_FILES/libldacBT_abr.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libldacBT_abr.so"],
@@ -1702,7 +1702,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libldacBT_enc-notice",
+    notice: "../common/NOTICE_FILES/libldacBT_enc.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libldacBT_enc.so"],
@@ -1719,7 +1719,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-liblz4-notice",
+    notice: "../common/NOTICE_FILES/liblz4.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/liblz4.so"],
@@ -1736,7 +1736,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libmedia_helper-notice",
+    notice: "../common/NOTICE_FILES/libmedia_helper.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libmedia_helper.so"],
@@ -1753,7 +1753,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libmedia_omx-notice",
+    notice: "../common/NOTICE_FILES/libmedia_omx.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libmedia_omx.so"],
@@ -1786,7 +1786,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libnetutils-notice",
+    notice: "../common/NOTICE_FILES/libnetutils.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libnetutils.so"],
@@ -1803,7 +1803,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libnl-notice",
+    notice: "../common/NOTICE_FILES/libnl.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libnl.so"],
@@ -1820,7 +1820,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libopus-notice",
+    notice: "../common/NOTICE_FILES/libopus.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libopus.so"],
@@ -1837,7 +1837,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libpagemap-notice",
+    notice: "../common/NOTICE_FILES/libpagemap.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libpagemap.so"],
@@ -1854,7 +1854,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libpcre2-notice",
+    notice: "../common/NOTICE_FILES/libpcre2.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libpcre2.so"],
@@ -1871,7 +1871,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libpiex-notice",
+    notice: "../common/NOTICE_FILES/libpiex.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libpiex.so"],
@@ -1904,7 +1904,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libpower-notice",
+    notice: "../common/NOTICE_FILES/libpower.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libpower.so"],
@@ -1937,7 +1937,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libprotobuf-cpp-full-notice",
+    notice: "../common/NOTICE_FILES/libprotobuf-cpp-full.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libprotobuf-cpp-full.so"],
@@ -1954,7 +1954,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libprotobuf-cpp-lite-notice",
+    notice: "../common/NOTICE_FILES/libprotobuf-cpp-lite.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libprotobuf-cpp-lite.so"],
@@ -1987,7 +1987,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libsoftkeymasterdevice-notice",
+    notice: "../common/NOTICE_FILES/libsoftkeymasterdevice.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libsoftkeymasterdevice.so"],
@@ -2004,7 +2004,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libspeexresampler-notice",
+    notice: "../common/NOTICE_FILES/libspeexresampler.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libspeexresampler.so"],
@@ -2021,7 +2021,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libsqlite-notice",
+    notice: "../common/NOTICE_FILES/libsqlite.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libsqlite.so"],
@@ -2038,7 +2038,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libssl-notice",
+    notice: "../common/NOTICE_FILES/libssl.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libssl.so"],
@@ -2055,7 +2055,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_amrnb_common-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_amrnb_common.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_amrnb_common.so"],
@@ -2072,7 +2072,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_enc_common-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_enc_common.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_enc_common.so"],
@@ -2089,7 +2089,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_flacdec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_flacdec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_flacdec.so"],
@@ -2106,7 +2106,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_foundation-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_foundation.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_foundation.so"],
@@ -2123,7 +2123,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_omx-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_omx.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_omx.so"],
@@ -2140,7 +2140,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_omx_utils-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_omx_utils.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_omx_utils.so"],
@@ -2157,7 +2157,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_aacdec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_aacdec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_aacdec.so"],
@@ -2174,7 +2174,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_aacenc-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_aacenc.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_aacenc.so"],
@@ -2191,7 +2191,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_amrdec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_amrdec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_amrdec.so"],
@@ -2208,7 +2208,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_amrnbenc-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_amrnbenc.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_amrnbenc.so"],
@@ -2225,7 +2225,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_amrwbenc-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_amrwbenc.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_amrwbenc.so"],
@@ -2274,7 +2274,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_flacdec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_flacdec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_flacdec.so"],
@@ -2291,7 +2291,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_flacenc-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_flacenc.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_flacenc.so"],
@@ -2308,7 +2308,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_g711dec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_g711dec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_g711dec.so"],
@@ -2325,7 +2325,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_gsmdec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_gsmdec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_gsmdec.so"],
@@ -2358,7 +2358,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_mp3dec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_mp3dec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_mp3dec.so"],
@@ -2391,7 +2391,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_mpeg4dec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_mpeg4dec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_mpeg4dec.so"],
@@ -2408,7 +2408,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_mpeg4enc-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_mpeg4enc.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_mpeg4enc.so"],
@@ -2441,7 +2441,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_rawdec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_rawdec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_rawdec.so"],
@@ -2458,7 +2458,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_vorbisdec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_vorbisdec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_vorbisdec.so"],
@@ -2475,7 +2475,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_vpxdec-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_vpxdec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_vpxdec.so"],
@@ -2492,7 +2492,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libstagefright_soft_vpxenc-notice",
+    notice: "../common/NOTICE_FILES/libstagefright_soft_vpxenc.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_soft_vpxenc.so"],
@@ -2557,7 +2557,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libtinyalsa-notice",
+    notice: "../common/NOTICE_FILES/libtinyalsa.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libtinyalsa.so"],
@@ -2574,7 +2574,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libtinyxml2-notice",
+    notice: "../common/NOTICE_FILES/libtinyxml2.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libtinyxml2.so"],
@@ -2591,7 +2591,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libui-notice",
+    notice: "../common/NOTICE_FILES/libui.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libui.so"],
@@ -2656,7 +2656,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libvorbisidec-notice",
+    notice: "../common/NOTICE_FILES/libvorbisidec.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libvorbisidec.so"],
@@ -2689,7 +2689,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v27-libxml2-notice",
+    notice: "../common/NOTICE_FILES/libxml2.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libxml2.so"],
@@ -2976,7 +2976,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v27-libblas-notice",
+    notice: "../common/NOTICE_FILES/libblas.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libblas.so"],
@@ -2994,7 +2994,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v27-libc++-notice",
+    notice: "../common/NOTICE_FILES/libc++.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libc++.so"],
@@ -3012,7 +3012,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v27-libcompiler_rt-notice",
+    notice: "../common/NOTICE_FILES/libcompiler_rt.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libcompiler_rt.so"],
@@ -3030,7 +3030,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v27-libcutils-notice",
+    notice: "../common/NOTICE_FILES/libcutils.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libcutils.so"],
@@ -3048,7 +3048,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v27-libhardware-notice",
+    notice: "../common/NOTICE_FILES/libhardware.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libhardware.so"],
@@ -3117,7 +3117,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v27-libhwbinder-notice",
+    notice: "../common/NOTICE_FILES/libhwbinder.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libhwbinder.so"],
@@ -3169,7 +3169,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v27-libunwind-notice",
+    notice: "../common/NOTICE_FILES/libunwind.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libunwind.so"],
@@ -3187,7 +3187,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v27-libutils-notice",
+    notice: "../common/NOTICE_FILES/libutils.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libutils.so"],
@@ -3205,7 +3205,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v27-libz-notice",
+    notice: "../common/NOTICE_FILES/libz.so.txt",
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libz.so"],
