@@ -192,6 +192,8 @@ phony {
         "ld.config.27.txt",
         "llndk.libraries.27.txt",
         "vndksp.libraries.27.txt",
+        "vndkcore.libraries.27.txt",
+        "vndkprivate.libraries.27.txt",
     ],
 }
 
@@ -3142,12 +3144,13 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    relative_install_path: "hw",
     arch: {
         x86: {
+            relative_install_path: "hw",
             srcs: ["arch-x86-x86_64/shared/vndk-sp/android.hidl.memory@1.0-impl.so"],
         },
         x86_64: {
+            relative_install_path: "hw",
             srcs: ["arch-x86_64-x86_64/shared/vndk-sp/android.hidl.memory@1.0-impl.so"],
         },
     },
